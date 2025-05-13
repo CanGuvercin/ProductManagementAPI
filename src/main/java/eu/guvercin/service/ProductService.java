@@ -40,6 +40,10 @@ public class ProductService {
         return productList.removeIf(product -> product.getId().equals(id));
     }
 
+    public List<Product> getAllProducts() {
+        return productList;
+    }
+
 
 
 
